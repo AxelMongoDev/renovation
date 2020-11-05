@@ -21,6 +21,9 @@ services:
     volumes:
       - ./config/nginx/conf.d:/etc/nginx/conf.d
       - static:/code/static
+    depends_on:
+      - django_app
+      
 volumes:
   .:
   postgres_data:

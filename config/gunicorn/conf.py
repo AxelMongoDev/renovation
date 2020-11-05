@@ -1,4 +1,4 @@
-name = 'docker_django'
+name = 'mangoDigital'
 loglevel = 'info'
 errorlog = '-'
 accesslog = '-'
