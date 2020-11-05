@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    color: #404040;
+    font-family: "poppins";
+}
+
+.section1 {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(90deg, #e0d85d, hsl(34, 81%, 46%), #7c7c7c, #000000);
+    /* background: linear-gradient(90deg, #f17e20, #f5f84c, #7c7c7c, #000000);
+    background: linear-gradient(-45deg, #EE7752, #f8fc29, #0080b3, #FFFF);*/
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+
+.section2 {
+    width: 100%;
+    height: 100vh;
+    color: #000;
+    background: #fff;
+    /* background: linear-gradient(90deg, #f17e20, #f5f84c, #7c7c7c, #000000);
+    background: linear-gradient(-45deg, #EE7752, #f8fc29, #0080b3, #FFFF);*/
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+
+.h1Recuadro {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 10rem;
+}
+
+.h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem 10rem;
+}
+
+.mango {
+    color: #ffc825;
+}
+
+.digital {
+    color: gray;
+}
+
+.context-dark,
+.bg-gray-dark,
+.bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a,
+.footer-classic a:focus,
+.footer-classic a:active {
+    color: #ffffff;
+}
+
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", poppins, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.page-wrapper {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.hero-bg {
+    width: 100%;
+    height: 100%;
+}
+
+.container-video {
+    border: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.hero-banner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.hero-img {
+    clip-path: url(#bgClip);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -45%);
+}
+
+.section-about {
+    display: flex;
+    width: 100%;
+}
+
+
+/* Estas son los componentes de Form */
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
