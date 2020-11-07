@@ -24,9 +24,9 @@ SECRET_KEY = 'pn@+t8kv617n!79g0xao-*s+z+v^hx9ncm(wu(-rwlgh2*7guc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['165.227.14.76', 'www.mangodigital.com.mx'] #165.227.14.76 www.mangodigital.com.mx
+ALLOWED_HOSTS = [ '*'] #165.227.14.76 www.mangodigital.com.mx
 
-
+#<165.227.14.76> www.mangodigital.com.mx ... arriba '165.227.14.76', 'www.mangodigital.com.mx',
 # Application definition
 
 INSTALLED_APPS = [
@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'mangoDigital.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 # Database de desarrollo
-'''
+ 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -92,6 +92,7 @@ DATABASES = {
         'PORT': 5432,
     }
 }
+'''
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 

@@ -23,7 +23,7 @@ class BussinessContactForm(forms.ModelForm):
 
     businessComment = forms.CharField(label = mark_safe
     ('<span style="font-weight: bold; font-size:72%;">¡Dejanos un comentario!</span>'),
-    widget=forms.Textarea(attrs={"rows":2, "cols":5, "placeholder":"",
+    widget=forms.Textarea(attrs={"rows":2, "cols":5, "placeholder":"Platícanos de que empresa nos contactas y en que servicios estas interesado.",
     "class":"form-control form-text text-muted form-group",
     "style":"font-size: small;","id":"my-businessComment"}))
 
