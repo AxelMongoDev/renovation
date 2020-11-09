@@ -24,7 +24,7 @@ SECRET_KEY = 'pn@+t8kv617n!79g0xao-*s+z+v^hx9ncm(wu(-rwlgh2*7guc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [ '*'] #165.227.14.76 www.mangodigital.com.mx
+ALLOWED_HOSTS = ['mangodigital.com.mx', 'www.mangodigital.com.mx'] #165.227.14.76 www.mangodigital.com.mx
 
 #<165.227.14.76> www.mangodigital.com.mx ... arriba '165.227.14.76', 'www.mangodigital.com.mx',
 # Application definition
